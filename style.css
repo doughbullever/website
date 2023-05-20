@@ -1,0 +1,87 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: rgba(66, 101, 255, 0.8);
+    padding: 1rem;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(219, 137, 23, 0.8);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
+footer p {
+	color: #fff;
+    margin-bottom: 0;
+}
